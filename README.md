@@ -38,7 +38,7 @@ My project will use the data from the national park database and write the infor
 1. First, you should run the SI507project_code file to create correspondingly file(i.e. json file)
 2. Input the data from csv file for 5-10 items or whatever you like and try to inlude as many as different kinds of types and states.
 3. Run the specific test file
-![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/another%20way%20to%20add.JPG)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/test.JPG)
 ## In this repository:
 - Database
   - DatabaseDesign.JPG
