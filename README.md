@@ -29,9 +29,9 @@ My project will use the data from the national park database and write the infor
 - `/all_states/ ` -> This route will show the data classfied by state. It will show how many parks in each state for each state(only state which has been input) "<State and location> has <number> parks/park"</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/all_states.JPG)
 - `/new_park/` -> This page CAN NOT be opened by URL links. It only shows up when you submit your data in the home page. It would shows what you have input in a organized format. "New Park: <name of the park> in <State and Location> and its type is 'Type'. <Description>"</p>
-![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/another%20way%20to%20add.JPG)
-- `/new/park/<name>/<state>/<type>/<description>` -> This is another way to create new park in the database by URL link. You should put the same inforamtion as home page and it will also redirect to the "/new_park/"page.</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/new_park.JPG)
+- `/new/park/<name>/<state>/<type>/<description>` -> This is another way to create new park in the database by URL link. You should put the same inforamtion as home page and it will also redirect to the "/new_park/"page.</p>
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/another%20way%20to%20add.JPG)
 
 
 ## How to run tests
