@@ -23,15 +23,15 @@ My project will use the data from the national park database and write the infor
 
 ## Routes in this application
 - `/home/` -> this is the home page which is a human computer interaction page(See the picture below) The user should input the data which is from the csv file or created by himself to make the data saved. In the corner of the page, it shows total saved park "Now <n> parks saved." When you click submit button, the page will redirect to '/new_park' route. And you also can clik the two redirecting link, 'Click here to see all parks' and 'Click here to see all states' to other two route.
-![image](https://github.com/LiZHU7594/SI507_Project3/blob/master/pictures/homepage.png)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/HomePage.JPG)
 - `/all_parks/` -> This route will show a list of the parks’ name and type of all the parks in the database. It will show the type, name and state of each park saved.
-![image](https://github.com/LiZHU7594/SI507_Project3/blob/master/pictures/homepage.png)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/all_parks.JPG)
 - `/all_states/ ` -> This route will show the data classfied by state. It will show how many parks in each state for each state(only state which has been input) "<State and location> has <number> parks/park"
-![image](https://github.com/LiZHU7594/SI507_Project3/blob/master/pictures/homepage.png)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/all_states.JPG)
 - `/new_park/` -> This page CAN NOT be opened by URL links. It only shows up when you submit your data in the home page. It would shows what you have input in a organized format. "New Park: <name of the park> in <State and Location> and its type is 'Type'. <Description>"
-![image](https://github.com/LiZHU7594/SI507_Project3/blob/master/pictures/homepage.png)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/another%20way%20to%20add.JPG)
 - `/new/park/<name>/<state>/<type>/<description>` -> This is another way to create new park in the database by URL link. You should put the same inforamtion as home page and it will also redirect to the "/new_park/"page.
-![image](https://github.com/LiZHU7594/SI507_Project3/blob/master/pictures/homepage.png)
+![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/new_park.JPG)
 
 
 ## How to run tests
