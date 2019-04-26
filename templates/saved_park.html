@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+
+{% block scripts %}
+<script src="{{url_for('.static', filename='bootstrap.css')}}"></script>
+{{super()}}
+{% endblock %}
+
+
+{% block content %}
+	<div class="container">
+
+		<div>
+			That park already exists!
+		</div>
+
+		<a href="{{ url_for('index')}}">Return to home page</a>
+
+	</div>
+
+
+{% endblock %}

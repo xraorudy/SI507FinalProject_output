@@ -1,0 +1,45 @@
+{% extends "bootstrap/base.html" %}
+
+{% block scripts %}
+<script src="{{url_for('.static', filename='bootstrap.css')}}"></script>
+{{super()}}
+{% endblock %}
+
+
+{% block content %}
+	<div class="container">
+		<div class = "jumbotron">
+			<h2 class="display-4">Hello! Welcome to US Park Database!</h2>
+			<p class="lead">Now {% if num_parks %}{{ num_parks }}{% else %}0{% endif %} parks saved.</p>
+		</div>
+
+		<form action="/new_park" method="post">
+			<h4> Save a park </h4>
+			<div class="form-group">
+				<label>Park Name</label>
+			    <input type="text" class="form-control" name="Park Name" required="required" />
+			    <label>State</label>
+			    <input type="text" class="form-control" name="State" required="required" />
+			    <label>Type</label>
+			    <input type="text" class="form-control"  name="Type" required="required" />
+					<label>Description</label>
+			    <input type="text" class="form-control"  name="Description" required="required" />
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit" class="btn btn-primary"/>
+				<input type="reset" value="Reset" class="btn btn-primary"/>
+			</div>
+		</form>
+
+		<div>
+			<a href="{{ url_for('see_all')}}">Click here to see all parks</a>
+		</div>
+
+		<div>
+			<a href="{{ url_for('see_all_states')}}">Click here to see all states</a>
+		</div>
+
+	</div>
+
+
+{% endblock %}

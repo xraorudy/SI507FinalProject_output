@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+
+{% block scripts %}
+<script src="{{url_for('.static', filename='bootstrap.css')}}"></script>
+{{super()}}
+{% endblock %}
+
+
+{% block content %}
+	<div class="container">
+		<div>
+			<ul>
+			{% for sg in all_parks %}
+			<li>{{ sg[0] }} in {{ sg[1] }} - {{ sg[2] }}</li><br>
+			{% endfor %}
+			</ul>
+
+			{% if not all_parks %}
+			There are no saved favorite parks to show.
+			{% endif %}
+		</div>
+
+		<div>
+			<a href="{{ url_for('index')}}">Return to home page</a>
+		</div>
+
+	</div>
+
+{% endblock %}
