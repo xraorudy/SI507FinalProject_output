@@ -1,7 +1,7 @@
 # Parks Data System
 
 Rudy Rao
-[Link to this repository](https://github.com/xraorudy/SI507_Final-Project)
+[Link to this repository](https://github.com/xraorudy/SI507FinalProject_output)
 
 ---
 
@@ -22,15 +22,15 @@ My project will use the data from the national park database and write the infor
 3. Change the url or click the link of each page to explore it. (Pictures of each route are in the parts below)
 
 ## Routes in this application
-- `/home/` -> this is the home page which is a human computer interaction page(See the picture below) The user should input the data which is from the csv file or created by himself to make the data saved. In the corner of the page, it shows total saved park "Now <n> parks saved." When you click submit button, the page will redirect to '/new_park' route. And you also can clik the two redirecting link, 'Click here to see all parks' and 'Click here to see all states' to other two route.
+- `/home/` -> this is the home page which is a human computer interaction page(See the picture below) The user should input the data which is from the csv file or created by himself to make the data saved. In the corner of the page, it shows total saved park "Now <n> parks saved." When you click submit button, the page will redirect to '/new_park' route. And you also can clik the two redirecting link, 'Click here to see all parks' and 'Click here to see all states' to other two route.</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/HomePage.JPG)
-- `/all_parks/` -> This route will show a list of the parks’ name and type of all the parks in the database. It will show the type, name and state of each park saved.
+- `/all_parks/` -> This route will show a list of the parks’ name and type of all the parks in the database. It will show the type, name and state of each park saved.</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/all_parks.JPG)
-- `/all_states/ ` -> This route will show the data classfied by state. It will show how many parks in each state for each state(only state which has been input) "<State and location> has <number> parks/park"
+- `/all_states/ ` -> This route will show the data classfied by state. It will show how many parks in each state for each state(only state which has been input) "<State and location> has <number> parks/park"</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/all_states.JPG)
-- `/new_park/` -> This page CAN NOT be opened by URL links. It only shows up when you submit your data in the home page. It would shows what you have input in a organized format. "New Park: <name of the park> in <State and Location> and its type is 'Type'. <Description>"
+- `/new_park/` -> This page CAN NOT be opened by URL links. It only shows up when you submit your data in the home page. It would shows what you have input in a organized format. "New Park: <name of the park> in <State and Location> and its type is 'Type'. <Description>"</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/another%20way%20to%20add.JPG)
-- `/new/park/<name>/<state>/<type>/<description>` -> This is another way to create new park in the database by URL link. You should put the same inforamtion as home page and it will also redirect to the "/new_park/"page.
+- `/new/park/<name>/<state>/<type>/<description>` -> This is another way to create new park in the database by URL link. You should put the same inforamtion as home page and it will also redirect to the "/new_park/"page.</p>
 ![image](https://github.com/xraorudy/SI507FinalProject_output/blob/master/pictures/new_park.JPG)
 
 
@@ -40,11 +40,32 @@ My project will use the data from the national park database and write the infor
 3. Run the specific test file
 
 ## In this repository:
-- Directory Name
-  - File in directory
-  - File in directory
-- File name
-- File name
+- Database
+  - DatabaseDesign.JPG
+  - DatabaseDesign.pptx
+- pictures
+  - HomePage.JPG
+  - all_parks.JPG
+  - all_states.JPG
+  - another way to add.JPG
+  - new_park.JPG
+- templates
+  - all_parks.html
+  - all_states.html
+  - bootstrap.css
+  - index.html
+  - parks_description_template.html
+  - save_park.html
+  - saved_park.html
+- README.md
+- SI507project_code.py
+- SI507project_tests.py
+- SI507project_tools.py
+- advanced_expiry_caching.py
+- finalproject_cache.json
+- park_data.csv
+- requirements.txt
+- sample_parks.db
 
 
 
