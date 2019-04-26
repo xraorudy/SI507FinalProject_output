@@ -49,6 +49,7 @@ My project will use the data from the national park database and write the infor
   - all_states.JPG
   - another way to add.JPG
   - new_park.JPG
+  - test.JPG
 - templates
   - all_parks.html
   - all_states.html
