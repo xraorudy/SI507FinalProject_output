@@ -36,7 +36,7 @@ My project will use the data from the national park database and write the infor
 
 ## How to run tests
 1. First, you should run the SI507project_code file to create correspondingly file(i.e. json file)
-2. Second, access the directory where both test and code relatd file are
+2. Input the data from csv file for 5-10 items or whatever you like
 3. Run the specific test file
 
 ## In this repository:
